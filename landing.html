@@ -6,62 +6,97 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
+<!-- header site -->
+
 <body>
+  <header class="container">
+    <div class="page-header">
+      <a href="./landing.html" class="logo">
+        <img src="./images/logo.png" alt="logo">
+      </a>
+      <nav>
+        <ul class="site-nav">
+          <li class="item"><a href="" class="link-nav">Home </a></li>
+          <li class="item"><a href="" class="link-nav">Our Products </a></li>
+          <li class="item"><a href="" class="link-nav">Blog </a></li>
+          <li class="item"><a href="" class="link-nav">About</a></li>
+          <li class="item"><a href="" class="link-nav">Contact</a></li>
+          <li class="item"><a href="" class="link-nav">Styleguide</a></li>
+        </ul>
+      </nav>
 
-  <!-- header site -->
-
-  <body>
-    <header class="container">
-      <div class="page-header">
-        <a href="./landing.html" class="logo">
-          <img src="./images/logo.png" alt="logo">
+      <div class="item-basket">
+        <svg class="basket-svg">
+          <use href="./images/basket.svg#icon-basket"></use>
+        </svg>
+        <a href="" class="link-nav-basket">
+          Card
         </a>
-        <nav>
-          <ul class="site-nav">
-            <li class="item"><a href="" class="link-nav">Home </a></li>
-            <li class="item"><a href="" class="link-nav">Our Products </a></li>
-            <li class="item"><a href="" class="link-nav">Blog </a></li>
-            <li class="item"><a href="" class="link-nav">About</a></li>
-            <li class="item"><a href="" class="link-nav">Contact</a></li>
-            <li class="item"><a href="" class="link-nav">Styleguide</a></li>
+        <div class="basket-counter">0</div>
+      </div>
+  </header>
 
-            <li class="item-busket">
-              <a href="" class="link-nav-basket">
-                <!-- <svg>
-                <use></use>
-              </svg> -->
-                Card
-              </a>
-            </li>
-          </ul>
-        </nav>
-    </header>
+  <!-- main section -->
 
-    <!-- main section -->
-
-    <main class="main-container">
-      <div class="container-sale">
+  <main class="main-wrapper">
+    <div class="container">
+      <section class="hero">
         <span class="sale-text">Best place to buy design</span>
         <span class="sale-banner">Coffee Mugs</span>
-        <span class="sale-desript">The most versatile furniture system ever created. Designed to fit your life, made to
-          move and grow.</span>
+        <span class="sale-desript">
+          The most versatile furniture system ever created. Designed to fit your life, made to move and grow.
+        </span>
+        <button type="button" class="button">Explore Our Products</button>
+    </div>
+    </section>
 
-          <button type="button" class="button">Explore Our Products</button>
-        </div>
-      </main>
-        
-      <section class="coffe-desription">
-        <div class="coffee-choice">
-          <span class="">Even the all-powerful Pointing has no control about the blind texts.</span>
-          <span class="">It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</span>
-          <a href="" class="">Read the full Story</a>
 
-        </div>
-      </section>
+    <div class="container">
+      <section class="coffee-desription">
+        <span class="coffee-headline">Even the all-powerful Pointing has no control about the blind texts.</span>
+        <span class="coffee-subtitle">It is a paradisematic country, in which roasted parts of sentences fly into your
+          mouth. Even the
+          all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however
+          a
+          small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</span>
+        <a href="" class="coffee-link"> Read the full Story</a>
+    </div>
+    </section>
 
-  </body>
+    <section class="mugs-choice">
+      <div class="container">
+        <span class="mugs">Featured Mugs</span>
+      </div>
+    </section>
+
+    <section class="section-cup">
+      <div class="container">
+        <ul class="example">
+          <li>
+            <div class="product-thumb">
+              <img src="./images/sec2-cup1.png" alt="pink cup" width="460px" height="540px" />
+            </div>
+            <p class="coffee-name">Pink Premium Ceramic</p>
+            <p class="coffee-price">$ 99.00 USD</p>
+          </li>
+
+          <li>
+            <div class="product-thumb">
+              <img src="./images/sec2-cup2.png" alt="brown cup" width="460px" height="540px"/>
+              <p class="coffee-name">Golden Designers Mug</p>
+              <div class="just-price">
+              <span class="coffee-price-new">$50.00</span>
+              <p class="not-price">$ 69.00 USD</p>
+              </div>
+            </div>
+          </li>
+
+
+
+  </main>
+</body>
 
 </html>
